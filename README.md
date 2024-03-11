@@ -14,39 +14,33 @@
 на русский).
 ОБРАТИТЕ ВНИМАНИЕ: при использовании этой команды сменится язык предлагаемых
 для угадывания слов, сам же язык интерфейса программы всегда русский.
-/help - вывод данного перечня команд и правил игры. По умолчанию выводится в начале выполнения программы.
-В упрощенном визуале данные выводятся текстом статичного серого цвета. Анимаций, выполненных
-посредством быстрого очищения консоли и картинок, составленных из символов, здесь нет.
+/help - вывод текста-помощника. По умолчанию выводится в начале выполнения программы.
+В упрощенном визуале данные выводятся текстом стандартного размера. Анимация салюта при угадывании слова
+не выводится.
 В продвинутом режиме каждый символ текущего угадываемого символа по сравнению с любой буквой из этого
-документа в обоих измерениях в несколько раз больше и заключен в рамку. Ненайденные символы
-текущего угадываемого слова (т.е. дефисы) окрашены красным цветом, уже найденные символы - зеленым.
-Цвет строки, которая выводится после успешного угадывания слова, зависит от количества затраченных попыток
-и в зависимости от этого количества колеблется в диапазоне от красного до зеленого (чем меньше попыток, тем зеленее
-слово и наоборот). После того, как слово успешно отгадано, появляется анимация фейерверка.
+документа в несколько раз больше и выполнен псевдографикой (только, если угадывается английское слово). 
+После того, как слово успешно отгадано, появляется анимация салюта.
 
 
 ***ОПИСАНИЕ НА АНГЛИЙСКОМ***
-
-This repository contains the code of the console game "Field of Wonders". The essence of the game is to guess which word is encrypted as early as possible, in fact the classic version of the "Field of Miracles", but perhaps in future versions there will be some author's additions. The program is written entirely in Python. To start the game, simply download the file itself and run it (condition: Python IDLE on your device) or copy the contents of the file and paste it into some .py file on your device and run (again, Python IDLE should also be installed). To start working with the word suggested by the program, you should try to guess the letter of the guessed word and enter it into the console (the game is case insensitive to letter input) using the letters of the alphabet of the language whose word is the current guessed word. If you want to try to enter the whole word, enter it in its entirety, instead of guessing the letter of the word. The program will distinguish the input of a word from the input of a letter and, if the current guessed word matches the user's case-insensitive word input option, it will congratulate you on your victory. You can use commands that allow you to find out any information about the gameplay or change the conditions of the gameplay. Each of them begins with a "/" sign. The program will distinguish the input of a command from the input of a letter or word. The full list of commands:
-/cm (abbreviation change mode) - change the game visual from advanced to a simplified one 
-or from dimplified to advanced one.
-/used - letters of the Russian or English alphabet used during the period of guessing this word
-(depending on which language word is the current guessed word).
+This repository contains the code for the console game "Field of Miracles". The essence of the game is to guess as early as possible which word is encrypted, essentially a classic version of “Field of Miracles”, but perhaps in future versions there will be some author’s additions. The program is written entirely in Python. To run the game, simply download the file itself and run it (condition: Python IDLE on your device) or copy the contents of the file and paste it into some .py file on your device and run (again, Python IDLE must also be installed). To start working with a word suggested by the program, you should try to guess the letter of the guessed word and enter it into the console (the game is case-insensitive), using the letters of the alphabet of the language whose word is the current word being guessed. If you want to try typing the entire word, enter the entire word instead of guessing the letter of the word. The program will distinguish between entering a word and entering a letter, and if the current guessed word matches the user's case-insensitive word entry, it will congratulate you on your victory. You can use commands that allow you to find out any data about the gameplay or change the conditions of the gameplay. Each of them begins with a "/". The program will distinguish between entering a command and entering a letter or word. Full list of commands:
+/cm (short for change mode) - change the game visuals from advanced to simplified
+or from simplified to advanced.
+/used - letters of the Russian or English alphabet used during the period of guessing a given word
+(depending on which language the current guessed word is a word).
 /rest - those letters of the Russian or English alphabet
-(depending on which language word is the current word being guessed),
-which have not yet been used in guessing this word.
-Russian Russian /cl (abbreviation change language) - change the language, the words of which will be
-the words that will be offered for guessing after successfully guessing
-the current word (the language of the words changes either from Russian to English or from English
-to Russian).
-PLEASE NOTE: when using this command, the language of the words offered
-for guessing will change, the language of the program interface is always Russian.
-/help - output of this list of commands and rules of the game. By default, it is displayed at the beginning of the program execution.
-In a simplified visualization, the data is displayed in static gray text. There are no animations made
-by quickly clearing the console and images made up of characters here.
-In advanced mode, each character of the current guessed character is several times larger and enclosed in a frame in comparison with any letter from this
-document in both dimensions. The undiscovered characters
-of the currently guessed word (i.e. hyphens) are colored red, the already found characters are green.
-The color of the string that is displayed after successfully guessing a word depends on the number of attempts spent
-and, depending on this number, ranges from red to green (the fewer attempts, the greener
-the word and vice versa). After the word is successfully guessed, a fireworks animation appears.
+(depending on which language the current word being guessed is a word),
+which have not yet been used when guessing this word.
+/cl (abbreviation change language) - change the language whose words will be
+words that will be offered for guessing after successful guessing
+current word (the language of the words changes either from Russian to English, or from English
+into Russian).
+PLEASE NOTE: Using this command will change the language of the suggested
+to guess words, the program interface language itself is always Russian.
+/help - displays help text. By default, it is displayed at the beginning of program execution.
+In a simplified visual, data is displayed in standard text size. Fireworks animation when guessing a word
+not displayed.
+In advanced mode, each character of the current character being guessed compared to any letter from that
+the document is several times larger and is made in pseudographics (only if the English word is guessed).
+After the word is successfully guessed, a fireworks animation appears.
+
