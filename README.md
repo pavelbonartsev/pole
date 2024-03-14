@@ -45,3 +45,5 @@ the document is several times larger and is made in pseudographics (only if the 
 After the word is successfully guessed, a fireworks animation appears.
 
 <image src="https://raw.githubusercontent.com/pavelbonartsev/githubphotozz/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-14%20202511.png" width = "1000">
+<image src="https://raw.githubusercontent.com/pavelbonartsev/githubphotozz/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-14%20203052.png" width = "1000">
+<image src="https://github.com/pavelbonartsev/githubphotozz/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-14%20203204.png?raw=true" width = "1000">
