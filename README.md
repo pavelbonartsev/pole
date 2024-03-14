@@ -23,6 +23,7 @@
 
 
 ***ОПИСАНИЕ НА АНГЛИЙСКОМ***
+
 This repository contains the code for the console game "Field of Miracles". The essence of the game is to guess as early as possible which word is encrypted, essentially a classic version of “Field of Miracles”, but perhaps in future versions there will be some author’s additions. The program is written entirely in Python. To run the game, simply download the file itself and run it (condition: Python IDLE on your device) or copy the contents of the file and paste it into some .py file on your device and run (again, Python IDLE must also be installed). To start working with a word suggested by the program, you should try to guess the letter of the guessed word and enter it into the console (the game is case-insensitive), using the letters of the alphabet of the language whose word is the current word being guessed. If you want to try typing the entire word, enter the entire word instead of guessing the letter of the word. The program will distinguish between entering a word and entering a letter, and if the current guessed word matches the user's case-insensitive word entry, it will congratulate you on your victory. You can use commands that allow you to find out any data about the gameplay or change the conditions of the gameplay. Each of them begins with a "/". The program will distinguish between entering a command and entering a letter or word. Full list of commands:
 /cm (short for change mode) - change the game visuals from advanced to simplified
 or from simplified to advanced.
